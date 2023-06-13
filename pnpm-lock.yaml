@@ -1,10 +1,14 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@heroicons/vue': ^2.0.18
   '@nuxt/devtools': latest
   '@nuxtjs/tailwindcss': ^6.7.0
   '@types/node': ^18
   nuxt: ^3.5.2
+
+dependencies:
+  '@heroicons/vue': 2.0.18
 
 devDependencies:
   '@nuxt/devtools': 0.5.5_nuxt@3.5.3
@@ -614,6 +618,12 @@ packages:
     dependencies:
       '@hapi/hoek': 9.3.0
     dev: true
+
+  /@heroicons/vue/2.0.18:
+    resolution: {integrity: sha512-BcTC9nq2TkwNSfQuqo96J7ehx4etezypc2YeTq7KsXWxrcrerhkgjLrxGRBnStN0wrXo0Gv4BInybqz5uBG6Cw==}
+    peerDependencies:
+      vue: '>= 3'
+    dev: false
 
   /@ioredis/commands/1.2.0:
     resolution: {integrity: sha512-Sx1pU8EM64o2BrqNpEO1CNLtKQwyhuXuqyfH7oGKCk+1a33d2r5saW8zNwm3j6BTExtjrv2BxTgzzkMwts6vGg==}

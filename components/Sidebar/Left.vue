@@ -10,8 +10,11 @@
         </div>
       </nuxt-link>
     </div>
+    <HomeIcon />
   </div>
 </template>
 <script setup>
+import { HomeIcon } from "@heroicons/vue/24/solid";
+
 const { defaultTransition } = useTailwindConfig();
 </script>
